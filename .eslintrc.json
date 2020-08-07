@@ -1,0 +1,19 @@
+{
+  "globals": {},
+  "env": {
+      "browser": false,
+      "commonjs": true,
+      "es6": true,
+      "node": true,
+      "es2020": true
+  },
+  "parserOptions": { "ecmaVersion": 2020 },
+  "extends": [
+      "eslint:recommended",
+      "airbnb-base"
+  ],
+  "rules": {
+    "max-len": [1, 200, 3],
+    "no-restricted-syntax": "off"
+  }
+}

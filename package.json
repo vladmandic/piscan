@@ -1,0 +1,40 @@
+{
+  "name": "piscan",
+  "version": "0.0.1",
+  "description": "nmap wrapper",
+  "main": "piscan.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "start": "node ./piscan.js",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladmandic/piscan.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "scan",
+    "nmap",
+    "discovery"
+  ],
+  "author": "Vladimir Mandic <mandic00@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladmandic/piscan/issues"
+  },
+  "homepage": "https://github.com/vladmandic/piscan#readme",
+  "dependencies": {
+    "@vladmandic/pilogger": "^0.1.5",
+    "node-nmap": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-config-airbnb-base": "^14.2.0"
+  }
+}
